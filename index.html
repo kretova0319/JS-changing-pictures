@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>part3</title>
+    <style>
+      h1 {
+        text-align: center;
+        font-size: 50px;
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      button {
+        font-size: 20px;
+        background-color: rgb(73, 106, 196);
+        border-radius: 50%;
+        border: 2px solid black;
+        height: 100px;
+        width: 100px;
+        margin: 20px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Cats</h1>
+    <div class="container">
+      <button onclick="changePicOld()">Previous</button>
+      <img id="image" src="assets/kitten.jpg" alt="kitten" />
+      <button onclick="changePicNew()">Next</button>
+    </div>
+
+    <script src="part10_3.js"></script>
+  </body>
+</html>
